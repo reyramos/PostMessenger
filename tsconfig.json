@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "none",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noResolve": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "allowSyntheticDefaultImports": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "../../../node_modules/@types",
+      "."
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "rxjs/Observable": [
+        "../../../node_modules/rxjs/Observable"
+      ]
+    }
+  },
+  "files": [
+    "./post-messenger.ts"
+  ]
+}
